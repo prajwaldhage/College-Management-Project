@@ -24,15 +24,11 @@ Partial Class Home
     Private Sub InitializeComponent()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Home))
         LeftPanel = New Panel()
-        Panel5 = New Panel()
-        Panel4 = New Panel()
-        Panel3 = New Panel()
-        Panel2 = New Panel()
-        Panel1 = New Panel()
+        PanelOn = New Panel()
         AboutBtn = New Button()
         HomeBtn = New Button()
         LibraryBtn = New Button()
-        StaffBtn = New Button()
+        FacultyBtn = New Button()
         StudentBtn = New Button()
         TopPanel = New Panel()
         Title = New Label()
@@ -70,6 +66,29 @@ Partial Class Home
         ContactSupportToolStripMenuItem = New ToolStripMenuItem()
         AboutToolStripMenuItem = New ToolStripMenuItem()
         StaffPanel = New Panel()
+        MenuStrip3 = New MenuStrip()
+        ToolStripMenuItem23 = New ToolStripMenuItem()
+        ToolStripMenuItem24 = New ToolStripMenuItem()
+        ToolStripMenuItem25 = New ToolStripMenuItem()
+        ToolStripMenuItem26 = New ToolStripMenuItem()
+        ToolStripMenuItem27 = New ToolStripMenuItem()
+        ToolStripMenuItem28 = New ToolStripMenuItem()
+        ToolStripMenuItem29 = New ToolStripMenuItem()
+        ToolStripMenuItem30 = New ToolStripMenuItem()
+        ToolStripMenuItem31 = New ToolStripMenuItem()
+        ToolStripMenuItem32 = New ToolStripMenuItem()
+        ToolStripMenuItem33 = New ToolStripMenuItem()
+        ToolStripMenuItem34 = New ToolStripMenuItem()
+        ToolStripMenuItem35 = New ToolStripMenuItem()
+        ToolStripMenuItem36 = New ToolStripMenuItem()
+        ToolStripMenuItem37 = New ToolStripMenuItem()
+        ToolStripMenuItem38 = New ToolStripMenuItem()
+        ToolStripMenuItem39 = New ToolStripMenuItem()
+        ToolStripMenuItem40 = New ToolStripMenuItem()
+        ToolStripMenuItem41 = New ToolStripMenuItem()
+        ToolStripMenuItem42 = New ToolStripMenuItem()
+        ToolStripMenuItem43 = New ToolStripMenuItem()
+        ToolStripMenuItem44 = New ToolStripMenuItem()
         MenuStrip2 = New MenuStrip()
         ToolStripMenuItem1 = New ToolStripMenuItem()
         ToolStripMenuItem2 = New ToolStripMenuItem()
@@ -78,96 +97,55 @@ Partial Class Home
         ToolStripMenuItem5 = New ToolStripMenuItem()
         ToolStripMenuItem6 = New ToolStripMenuItem()
         ToolStripMenuItem7 = New ToolStripMenuItem()
-        ToolStripMenuItem8 = New ToolStripMenuItem()
-        ToolStripMenuItem9 = New ToolStripMenuItem()
-        ToolStripMenuItem10 = New ToolStripMenuItem()
-        ToolStripMenuItem11 = New ToolStripMenuItem()
-        ToolStripMenuItem12 = New ToolStripMenuItem()
-        ToolStripMenuItem13 = New ToolStripMenuItem()
-        ToolStripMenuItem14 = New ToolStripMenuItem()
-        ToolStripMenuItem15 = New ToolStripMenuItem()
-        ToolStripMenuItem16 = New ToolStripMenuItem()
-        ToolStripMenuItem17 = New ToolStripMenuItem()
-        ToolStripMenuItem18 = New ToolStripMenuItem()
         ToolStripMenuItem19 = New ToolStripMenuItem()
         ToolStripMenuItem20 = New ToolStripMenuItem()
         ToolStripMenuItem21 = New ToolStripMenuItem()
         ToolStripMenuItem22 = New ToolStripMenuItem()
-        FacultyToolStripMenuItem = New ToolStripMenuItem()
+        LibraryPanel = New Panel()
+        AboutPanel = New Panel()
+        Label3 = New Label()
+        Label2 = New Label()
+        Label1 = New Label()
+        membername1 = New Label()
+        abouttext2 = New Label()
+        abouttext1 = New Label()
         LeftPanel.SuspendLayout()
         TopPanel.SuspendLayout()
         HomePanel.SuspendLayout()
         StudentPanel.SuspendLayout()
         MenuStrip1.SuspendLayout()
         StaffPanel.SuspendLayout()
+        MenuStrip3.SuspendLayout()
         MenuStrip2.SuspendLayout()
+        LibraryPanel.SuspendLayout()
+        AboutPanel.SuspendLayout()
         SuspendLayout()
         ' 
         ' LeftPanel
         ' 
         LeftPanel.BackColor = Color.Orange
         LeftPanel.BackgroundImageLayout = ImageLayout.None
-        LeftPanel.Controls.Add(Panel5)
-        LeftPanel.Controls.Add(Panel4)
-        LeftPanel.Controls.Add(Panel3)
-        LeftPanel.Controls.Add(Panel2)
-        LeftPanel.Controls.Add(Panel1)
+        LeftPanel.Controls.Add(PanelOn)
         LeftPanel.Controls.Add(AboutBtn)
         LeftPanel.Controls.Add(HomeBtn)
         LeftPanel.Controls.Add(LibraryBtn)
-        LeftPanel.Controls.Add(StaffBtn)
+        LeftPanel.Controls.Add(FacultyBtn)
         LeftPanel.Controls.Add(StudentBtn)
         LeftPanel.Dock = DockStyle.Left
         LeftPanel.Location = New Point(0, 0)
-        LeftPanel.Margin = New Padding(2, 2, 2, 2)
+        LeftPanel.Margin = New Padding(2)
         LeftPanel.Name = "LeftPanel"
         LeftPanel.Size = New Size(168, 382)
         LeftPanel.TabIndex = 0
         ' 
-        ' Panel5
+        ' PanelOn
         ' 
-        Panel5.BackColor = Color.Moccasin
-        Panel5.Location = New Point(1, 247)
-        Panel5.Margin = New Padding(2, 2, 2, 2)
-        Panel5.Name = "Panel5"
-        Panel5.Size = New Size(10, 29)
-        Panel5.TabIndex = 10
-        ' 
-        ' Panel4
-        ' 
-        Panel4.BackColor = Color.Moccasin
-        Panel4.Location = New Point(1, 202)
-        Panel4.Margin = New Padding(2, 2, 2, 2)
-        Panel4.Name = "Panel4"
-        Panel4.Size = New Size(10, 29)
-        Panel4.TabIndex = 9
-        ' 
-        ' Panel3
-        ' 
-        Panel3.BackColor = Color.Moccasin
-        Panel3.Location = New Point(1, 157)
-        Panel3.Margin = New Padding(2, 2, 2, 2)
-        Panel3.Name = "Panel3"
-        Panel3.Size = New Size(10, 29)
-        Panel3.TabIndex = 8
-        ' 
-        ' Panel2
-        ' 
-        Panel2.BackColor = Color.Moccasin
-        Panel2.Location = New Point(1, 112)
-        Panel2.Margin = New Padding(2, 2, 2, 2)
-        Panel2.Name = "Panel2"
-        Panel2.Size = New Size(10, 29)
-        Panel2.TabIndex = 7
-        ' 
-        ' Panel1
-        ' 
-        Panel1.BackColor = Color.Moccasin
-        Panel1.Location = New Point(1, 67)
-        Panel1.Margin = New Padding(2, 2, 2, 2)
-        Panel1.Name = "Panel1"
-        Panel1.Size = New Size(10, 29)
-        Panel1.TabIndex = 6
+        PanelOn.BackColor = Color.Moccasin
+        PanelOn.Location = New Point(1, 67)
+        PanelOn.Margin = New Padding(2)
+        PanelOn.Name = "PanelOn"
+        PanelOn.Size = New Size(10, 29)
+        PanelOn.TabIndex = 6
         ' 
         ' AboutBtn
         ' 
@@ -175,7 +153,7 @@ Partial Class Home
         AboutBtn.FlatStyle = FlatStyle.Flat
         AboutBtn.Font = New Font("Papyrus", 12F)
         AboutBtn.Location = New Point(0, 247)
-        AboutBtn.Margin = New Padding(2, 2, 2, 2)
+        AboutBtn.Margin = New Padding(2)
         AboutBtn.Name = "AboutBtn"
         AboutBtn.Size = New Size(168, 29)
         AboutBtn.TabIndex = 5
@@ -188,7 +166,7 @@ Partial Class Home
         HomeBtn.FlatStyle = FlatStyle.Flat
         HomeBtn.Font = New Font("Papyrus", 12F)
         HomeBtn.Location = New Point(0, 67)
-        HomeBtn.Margin = New Padding(2, 2, 2, 2)
+        HomeBtn.Margin = New Padding(2)
         HomeBtn.Name = "HomeBtn"
         HomeBtn.Size = New Size(168, 29)
         HomeBtn.TabIndex = 4
@@ -201,25 +179,25 @@ Partial Class Home
         LibraryBtn.FlatStyle = FlatStyle.Flat
         LibraryBtn.Font = New Font("Papyrus", 12F)
         LibraryBtn.Location = New Point(0, 200)
-        LibraryBtn.Margin = New Padding(2, 2, 2, 2)
+        LibraryBtn.Margin = New Padding(2)
         LibraryBtn.Name = "LibraryBtn"
         LibraryBtn.Size = New Size(168, 29)
         LibraryBtn.TabIndex = 3
         LibraryBtn.Text = "Library Record"
         LibraryBtn.UseVisualStyleBackColor = True
         ' 
-        ' StaffBtn
+        ' FacultyBtn
         ' 
-        StaffBtn.FlatAppearance.BorderSize = 0
-        StaffBtn.FlatStyle = FlatStyle.Flat
-        StaffBtn.Font = New Font("Papyrus", 12F)
-        StaffBtn.Location = New Point(0, 157)
-        StaffBtn.Margin = New Padding(2, 2, 2, 2)
-        StaffBtn.Name = "StaffBtn"
-        StaffBtn.Size = New Size(168, 29)
-        StaffBtn.TabIndex = 2
-        StaffBtn.Text = "Staff Record"
-        StaffBtn.UseVisualStyleBackColor = True
+        FacultyBtn.FlatAppearance.BorderSize = 0
+        FacultyBtn.FlatStyle = FlatStyle.Flat
+        FacultyBtn.Font = New Font("Papyrus", 12F)
+        FacultyBtn.Location = New Point(0, 157)
+        FacultyBtn.Margin = New Padding(2)
+        FacultyBtn.Name = "FacultyBtn"
+        FacultyBtn.Size = New Size(168, 29)
+        FacultyBtn.TabIndex = 2
+        FacultyBtn.Text = "Staff Record"
+        FacultyBtn.UseVisualStyleBackColor = True
         ' 
         ' StudentBtn
         ' 
@@ -227,7 +205,7 @@ Partial Class Home
         StudentBtn.FlatStyle = FlatStyle.Flat
         StudentBtn.Font = New Font("Papyrus", 12F)
         StudentBtn.Location = New Point(0, 112)
-        StudentBtn.Margin = New Padding(2, 2, 2, 2)
+        StudentBtn.Margin = New Padding(2)
         StudentBtn.Name = "StudentBtn"
         StudentBtn.Size = New Size(168, 29)
         StudentBtn.TabIndex = 1
@@ -240,7 +218,7 @@ Partial Class Home
         TopPanel.Controls.Add(Title)
         TopPanel.Dock = DockStyle.Top
         TopPanel.Location = New Point(168, 0)
-        TopPanel.Margin = New Padding(2, 2, 2, 2)
+        TopPanel.Margin = New Padding(2)
         TopPanel.Name = "TopPanel"
         TopPanel.Size = New Size(568, 35)
         TopPanel.TabIndex = 1
@@ -249,7 +227,7 @@ Partial Class Home
         ' 
         Title.AutoSize = True
         Title.Font = New Font("Comic Sans MS", 12F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
-        Title.Location = New Point(193, 9)
+        Title.Location = New Point(140, 7)
         Title.Name = "Title"
         Title.Size = New Size(224, 23)
         Title.TabIndex = 0
@@ -266,7 +244,7 @@ Partial Class Home
         HomePanel.Controls.Add(AboutBtnHome)
         HomePanel.Controls.Add(StudentBtnHome)
         HomePanel.Location = New Point(168, 34)
-        HomePanel.Margin = New Padding(2, 2, 2, 2)
+        HomePanel.Margin = New Padding(2)
         HomePanel.Name = "HomePanel"
         HomePanel.Size = New Size(568, 348)
         HomePanel.TabIndex = 2
@@ -312,7 +290,7 @@ Partial Class Home
         LibraryBtnHome.BackgroundImage = CType(resources.GetObject("LibraryBtnHome.BackgroundImage"), Image)
         LibraryBtnHome.BackgroundImageLayout = ImageLayout.Stretch
         LibraryBtnHome.Location = New Point(91, 187)
-        LibraryBtnHome.Margin = New Padding(2, 2, 2, 2)
+        LibraryBtnHome.Margin = New Padding(2)
         LibraryBtnHome.Name = "LibraryBtnHome"
         LibraryBtnHome.Size = New Size(124, 103)
         LibraryBtnHome.TabIndex = 2
@@ -323,7 +301,7 @@ Partial Class Home
         FacultyBtnHome.BackgroundImage = CType(resources.GetObject("FacultyBtnHome.BackgroundImage"), Image)
         FacultyBtnHome.BackgroundImageLayout = ImageLayout.Stretch
         FacultyBtnHome.Location = New Point(339, 41)
-        FacultyBtnHome.Margin = New Padding(2, 2, 2, 2)
+        FacultyBtnHome.Margin = New Padding(2)
         FacultyBtnHome.Name = "FacultyBtnHome"
         FacultyBtnHome.Size = New Size(124, 103)
         FacultyBtnHome.TabIndex = 1
@@ -334,7 +312,7 @@ Partial Class Home
         AboutBtnHome.BackgroundImage = CType(resources.GetObject("AboutBtnHome.BackgroundImage"), Image)
         AboutBtnHome.BackgroundImageLayout = ImageLayout.Stretch
         AboutBtnHome.Location = New Point(339, 187)
-        AboutBtnHome.Margin = New Padding(2, 2, 2, 2)
+        AboutBtnHome.Margin = New Padding(2)
         AboutBtnHome.Name = "AboutBtnHome"
         AboutBtnHome.Size = New Size(124, 103)
         AboutBtnHome.TabIndex = 3
@@ -345,7 +323,7 @@ Partial Class Home
         StudentBtnHome.BackgroundImage = CType(resources.GetObject("StudentBtnHome.BackgroundImage"), Image)
         StudentBtnHome.BackgroundImageLayout = ImageLayout.Stretch
         StudentBtnHome.Location = New Point(91, 41)
-        StudentBtnHome.Margin = New Padding(2, 2, 2, 2)
+        StudentBtnHome.Margin = New Padding(2)
         StudentBtnHome.Name = "StudentBtnHome"
         StudentBtnHome.Size = New Size(124, 103)
         StudentBtnHome.TabIndex = 0
@@ -379,13 +357,13 @@ Partial Class Home
         ' OpenToolStripMenuItem
         ' 
         OpenToolStripMenuItem.Name = "OpenToolStripMenuItem"
-        OpenToolStripMenuItem.Size = New Size(180, 22)
+        OpenToolStripMenuItem.Size = New Size(103, 22)
         OpenToolStripMenuItem.Text = "Open"
         ' 
         ' SaveToolStripMenuItem
         ' 
         SaveToolStripMenuItem.Name = "SaveToolStripMenuItem"
-        SaveToolStripMenuItem.Size = New Size(180, 22)
+        SaveToolStripMenuItem.Size = New Size(103, 22)
         SaveToolStripMenuItem.Text = "Save"
         ' 
         ' StudentToolStripMenuItem
@@ -398,19 +376,19 @@ Partial Class Home
         ' AddStudentToolStripMenuItem
         ' 
         AddStudentToolStripMenuItem.Name = "AddStudentToolStripMenuItem"
-        AddStudentToolStripMenuItem.Size = New Size(180, 22)
+        AddStudentToolStripMenuItem.Size = New Size(156, 22)
         AddStudentToolStripMenuItem.Text = "Add Student"
         ' 
         ' DeleteStudentToolStripMenuItem
         ' 
         DeleteStudentToolStripMenuItem.Name = "DeleteStudentToolStripMenuItem"
-        DeleteStudentToolStripMenuItem.Size = New Size(180, 22)
+        DeleteStudentToolStripMenuItem.Size = New Size(156, 22)
         DeleteStudentToolStripMenuItem.Text = "Student Details"
         ' 
         ' ViewDetailsToolStripMenuItem
         ' 
         ViewDetailsToolStripMenuItem.Name = "ViewDetailsToolStripMenuItem"
-        ViewDetailsToolStripMenuItem.Size = New Size(180, 22)
+        ViewDetailsToolStripMenuItem.Size = New Size(156, 22)
         ViewDetailsToolStripMenuItem.Text = "Update Student"
         ' 
         ' ClassToolStripMenuItem
@@ -509,16 +487,164 @@ Partial Class Home
         ' 
         ' StaffPanel
         ' 
-        StaffPanel.Controls.Add(MenuStrip2)
+        StaffPanel.Controls.Add(MenuStrip3)
         StaffPanel.Location = New Point(171, 34)
         StaffPanel.Name = "StaffPanel"
         StaffPanel.Size = New Size(568, 347)
         StaffPanel.TabIndex = 9
         ' 
+        ' MenuStrip3
+        ' 
+        MenuStrip3.ImageScalingSize = New Size(20, 20)
+        MenuStrip3.Items.AddRange(New ToolStripItem() {ToolStripMenuItem23, ToolStripMenuItem26, ToolStripMenuItem30, ToolStripMenuItem33, ToolStripMenuItem37, ToolStripMenuItem41})
+        MenuStrip3.Location = New Point(0, 0)
+        MenuStrip3.Name = "MenuStrip3"
+        MenuStrip3.Size = New Size(568, 24)
+        MenuStrip3.TabIndex = 0
+        MenuStrip3.Text = "MenuStrip3"
+        ' 
+        ' ToolStripMenuItem23
+        ' 
+        ToolStripMenuItem23.DropDownItems.AddRange(New ToolStripItem() {ToolStripMenuItem24, ToolStripMenuItem25})
+        ToolStripMenuItem23.Name = "ToolStripMenuItem23"
+        ToolStripMenuItem23.Size = New Size(37, 20)
+        ToolStripMenuItem23.Text = "File"
+        ' 
+        ' ToolStripMenuItem24
+        ' 
+        ToolStripMenuItem24.Name = "ToolStripMenuItem24"
+        ToolStripMenuItem24.Size = New Size(103, 22)
+        ToolStripMenuItem24.Text = "Open"
+        ' 
+        ' ToolStripMenuItem25
+        ' 
+        ToolStripMenuItem25.Name = "ToolStripMenuItem25"
+        ToolStripMenuItem25.Size = New Size(103, 22)
+        ToolStripMenuItem25.Text = "Save"
+        ' 
+        ' ToolStripMenuItem26
+        ' 
+        ToolStripMenuItem26.DropDownItems.AddRange(New ToolStripItem() {ToolStripMenuItem27, ToolStripMenuItem28, ToolStripMenuItem29})
+        ToolStripMenuItem26.Name = "ToolStripMenuItem26"
+        ToolStripMenuItem26.Size = New Size(57, 20)
+        ToolStripMenuItem26.Text = "Faculty"
+        ' 
+        ' ToolStripMenuItem27
+        ' 
+        ToolStripMenuItem27.Name = "ToolStripMenuItem27"
+        ToolStripMenuItem27.Size = New Size(153, 22)
+        ToolStripMenuItem27.Text = "Add Faculty"
+        ' 
+        ' ToolStripMenuItem28
+        ' 
+        ToolStripMenuItem28.Name = "ToolStripMenuItem28"
+        ToolStripMenuItem28.Size = New Size(153, 22)
+        ToolStripMenuItem28.Text = "Faculty Details"
+        ' 
+        ' ToolStripMenuItem29
+        ' 
+        ToolStripMenuItem29.Name = "ToolStripMenuItem29"
+        ToolStripMenuItem29.Size = New Size(153, 22)
+        ToolStripMenuItem29.Text = "Update Faculty"
+        ' 
+        ' ToolStripMenuItem30
+        ' 
+        ToolStripMenuItem30.DropDownItems.AddRange(New ToolStripItem() {ToolStripMenuItem31, ToolStripMenuItem32})
+        ToolStripMenuItem30.Name = "ToolStripMenuItem30"
+        ToolStripMenuItem30.Size = New Size(46, 20)
+        ToolStripMenuItem30.Text = "Class"
+        ' 
+        ' ToolStripMenuItem31
+        ' 
+        ToolStripMenuItem31.Name = "ToolStripMenuItem31"
+        ToolStripMenuItem31.Size = New Size(139, 22)
+        ToolStripMenuItem31.Text = "Add Class"
+        ' 
+        ' ToolStripMenuItem32
+        ' 
+        ToolStripMenuItem32.Name = "ToolStripMenuItem32"
+        ToolStripMenuItem32.Size = New Size(139, 22)
+        ToolStripMenuItem32.Text = "Class Details"
+        ' 
+        ' ToolStripMenuItem33
+        ' 
+        ToolStripMenuItem33.DropDownItems.AddRange(New ToolStripItem() {ToolStripMenuItem34, ToolStripMenuItem35, ToolStripMenuItem36})
+        ToolStripMenuItem33.Name = "ToolStripMenuItem33"
+        ToolStripMenuItem33.Size = New Size(42, 20)
+        ToolStripMenuItem33.Text = "Fees"
+        ' 
+        ' ToolStripMenuItem34
+        ' 
+        ToolStripMenuItem34.Name = "ToolStripMenuItem34"
+        ToolStripMenuItem34.Size = New Size(137, 22)
+        ToolStripMenuItem34.Text = "Add Fees"
+        ' 
+        ' ToolStripMenuItem35
+        ' 
+        ToolStripMenuItem35.Name = "ToolStripMenuItem35"
+        ToolStripMenuItem35.Size = New Size(137, 22)
+        ToolStripMenuItem35.Text = "Fee Details"
+        ' 
+        ' ToolStripMenuItem36
+        ' 
+        ToolStripMenuItem36.Name = "ToolStripMenuItem36"
+        ToolStripMenuItem36.Size = New Size(137, 22)
+        ToolStripMenuItem36.Text = "Collect Fees"
+        ' 
+        ' ToolStripMenuItem37
+        ' 
+        ToolStripMenuItem37.DropDownItems.AddRange(New ToolStripItem() {ToolStripMenuItem38, ToolStripMenuItem39, ToolStripMenuItem40})
+        ToolStripMenuItem37.Name = "ToolStripMenuItem37"
+        ToolStripMenuItem37.Size = New Size(48, 20)
+        ToolStripMenuItem37.Text = "Exam"
+        ' 
+        ' ToolStripMenuItem38
+        ' 
+        ToolStripMenuItem38.Name = "ToolStripMenuItem38"
+        ToolStripMenuItem38.Size = New Size(153, 22)
+        ToolStripMenuItem38.Text = "Exam Details"
+        ' 
+        ' ToolStripMenuItem39
+        ' 
+        ToolStripMenuItem39.Name = "ToolStripMenuItem39"
+        ToolStripMenuItem39.Size = New Size(153, 22)
+        ToolStripMenuItem39.Text = "Add Exam"
+        ' 
+        ' ToolStripMenuItem40
+        ' 
+        ToolStripMenuItem40.Name = "ToolStripMenuItem40"
+        ToolStripMenuItem40.Size = New Size(153, 22)
+        ToolStripMenuItem40.Text = "Student Report"
+        ' 
+        ' ToolStripMenuItem41
+        ' 
+        ToolStripMenuItem41.DropDownItems.AddRange(New ToolStripItem() {ToolStripMenuItem42, ToolStripMenuItem43, ToolStripMenuItem44})
+        ToolStripMenuItem41.Name = "ToolStripMenuItem41"
+        ToolStripMenuItem41.Size = New Size(44, 20)
+        ToolStripMenuItem41.Text = "Help"
+        ' 
+        ' ToolStripMenuItem42
+        ' 
+        ToolStripMenuItem42.Name = "ToolStripMenuItem42"
+        ToolStripMenuItem42.Size = New Size(161, 22)
+        ToolStripMenuItem42.Text = "Get Help Online"
+        ' 
+        ' ToolStripMenuItem43
+        ' 
+        ToolStripMenuItem43.Name = "ToolStripMenuItem43"
+        ToolStripMenuItem43.Size = New Size(161, 22)
+        ToolStripMenuItem43.Text = "Contact Support"
+        ' 
+        ' ToolStripMenuItem44
+        ' 
+        ToolStripMenuItem44.Name = "ToolStripMenuItem44"
+        ToolStripMenuItem44.Size = New Size(161, 22)
+        ToolStripMenuItem44.Text = "About"
+        ' 
         ' MenuStrip2
         ' 
         MenuStrip2.ImageScalingSize = New Size(20, 20)
-        MenuStrip2.Items.AddRange(New ToolStripItem() {ToolStripMenuItem1, ToolStripMenuItem4, ToolStripMenuItem8, ToolStripMenuItem11, ToolStripMenuItem15, ToolStripMenuItem19})
+        MenuStrip2.Items.AddRange(New ToolStripItem() {ToolStripMenuItem1, ToolStripMenuItem4, ToolStripMenuItem19})
         MenuStrip2.Location = New Point(0, 0)
         MenuStrip2.Name = "MenuStrip2"
         MenuStrip2.Size = New Size(568, 24)
@@ -546,97 +672,28 @@ Partial Class Home
         ' 
         ' ToolStripMenuItem4
         ' 
-        ToolStripMenuItem4.DropDownItems.AddRange(New ToolStripItem() {ToolStripMenuItem5, ToolStripMenuItem6, FacultyToolStripMenuItem, ToolStripMenuItem7})
+        ToolStripMenuItem4.DropDownItems.AddRange(New ToolStripItem() {ToolStripMenuItem5, ToolStripMenuItem6, ToolStripMenuItem7})
         ToolStripMenuItem4.Name = "ToolStripMenuItem4"
-        ToolStripMenuItem4.Size = New Size(57, 20)
-        ToolStripMenuItem4.Text = "Faculty"
+        ToolStripMenuItem4.Size = New Size(65, 20)
+        ToolStripMenuItem4.Text = "Librarian"
         ' 
         ' ToolStripMenuItem5
         ' 
         ToolStripMenuItem5.Name = "ToolStripMenuItem5"
-        ToolStripMenuItem5.Size = New Size(180, 22)
+        ToolStripMenuItem5.Size = New Size(153, 22)
         ToolStripMenuItem5.Text = "Add Faculty"
         ' 
         ' ToolStripMenuItem6
         ' 
         ToolStripMenuItem6.Name = "ToolStripMenuItem6"
-        ToolStripMenuItem6.Size = New Size(180, 22)
+        ToolStripMenuItem6.Size = New Size(153, 22)
         ToolStripMenuItem6.Text = "Faculty Details"
         ' 
         ' ToolStripMenuItem7
         ' 
         ToolStripMenuItem7.Name = "ToolStripMenuItem7"
-        ToolStripMenuItem7.Size = New Size(180, 22)
+        ToolStripMenuItem7.Size = New Size(153, 22)
         ToolStripMenuItem7.Text = "Update Faculty"
-        ' 
-        ' ToolStripMenuItem8
-        ' 
-        ToolStripMenuItem8.DropDownItems.AddRange(New ToolStripItem() {ToolStripMenuItem9, ToolStripMenuItem10})
-        ToolStripMenuItem8.Name = "ToolStripMenuItem8"
-        ToolStripMenuItem8.Size = New Size(46, 20)
-        ToolStripMenuItem8.Text = "Class"
-        ' 
-        ' ToolStripMenuItem9
-        ' 
-        ToolStripMenuItem9.Name = "ToolStripMenuItem9"
-        ToolStripMenuItem9.Size = New Size(139, 22)
-        ToolStripMenuItem9.Text = "Add Class"
-        ' 
-        ' ToolStripMenuItem10
-        ' 
-        ToolStripMenuItem10.Name = "ToolStripMenuItem10"
-        ToolStripMenuItem10.Size = New Size(139, 22)
-        ToolStripMenuItem10.Text = "Class Details"
-        ' 
-        ' ToolStripMenuItem11
-        ' 
-        ToolStripMenuItem11.DropDownItems.AddRange(New ToolStripItem() {ToolStripMenuItem12, ToolStripMenuItem13, ToolStripMenuItem14})
-        ToolStripMenuItem11.Name = "ToolStripMenuItem11"
-        ToolStripMenuItem11.Size = New Size(42, 20)
-        ToolStripMenuItem11.Text = "Fees"
-        ' 
-        ' ToolStripMenuItem12
-        ' 
-        ToolStripMenuItem12.Name = "ToolStripMenuItem12"
-        ToolStripMenuItem12.Size = New Size(137, 22)
-        ToolStripMenuItem12.Text = "Add Fees"
-        ' 
-        ' ToolStripMenuItem13
-        ' 
-        ToolStripMenuItem13.Name = "ToolStripMenuItem13"
-        ToolStripMenuItem13.Size = New Size(137, 22)
-        ToolStripMenuItem13.Text = "Fee Details"
-        ' 
-        ' ToolStripMenuItem14
-        ' 
-        ToolStripMenuItem14.Name = "ToolStripMenuItem14"
-        ToolStripMenuItem14.Size = New Size(137, 22)
-        ToolStripMenuItem14.Text = "Collect Fees"
-        ' 
-        ' ToolStripMenuItem15
-        ' 
-        ToolStripMenuItem15.DropDownItems.AddRange(New ToolStripItem() {ToolStripMenuItem16, ToolStripMenuItem17, ToolStripMenuItem18})
-        ToolStripMenuItem15.Name = "ToolStripMenuItem15"
-        ToolStripMenuItem15.Size = New Size(48, 20)
-        ToolStripMenuItem15.Text = "Exam"
-        ' 
-        ' ToolStripMenuItem16
-        ' 
-        ToolStripMenuItem16.Name = "ToolStripMenuItem16"
-        ToolStripMenuItem16.Size = New Size(153, 22)
-        ToolStripMenuItem16.Text = "Exam Details"
-        ' 
-        ' ToolStripMenuItem17
-        ' 
-        ToolStripMenuItem17.Name = "ToolStripMenuItem17"
-        ToolStripMenuItem17.Size = New Size(153, 22)
-        ToolStripMenuItem17.Text = "Add Exam"
-        ' 
-        ' ToolStripMenuItem18
-        ' 
-        ToolStripMenuItem18.Name = "ToolStripMenuItem18"
-        ToolStripMenuItem18.Size = New Size(153, 22)
-        ToolStripMenuItem18.Text = "Student Report"
         ' 
         ' ToolStripMenuItem19
         ' 
@@ -663,11 +720,87 @@ Partial Class Home
         ToolStripMenuItem22.Size = New Size(161, 22)
         ToolStripMenuItem22.Text = "About"
         ' 
-        ' FacultyToolStripMenuItem
+        ' LibraryPanel
         ' 
-        FacultyToolStripMenuItem.Name = "FacultyToolStripMenuItem"
-        FacultyToolStripMenuItem.Size = New Size(180, 22)
-        FacultyToolStripMenuItem.Text = "Faculty"
+        LibraryPanel.Controls.Add(MenuStrip2)
+        LibraryPanel.Location = New Point(168, 34)
+        LibraryPanel.Name = "LibraryPanel"
+        LibraryPanel.Size = New Size(568, 347)
+        LibraryPanel.TabIndex = 9
+        ' 
+        ' AboutPanel
+        ' 
+        AboutPanel.Controls.Add(Label3)
+        AboutPanel.Controls.Add(Label2)
+        AboutPanel.Controls.Add(Label1)
+        AboutPanel.Controls.Add(membername1)
+        AboutPanel.Controls.Add(abouttext2)
+        AboutPanel.Controls.Add(abouttext1)
+        AboutPanel.Location = New Point(167, 31)
+        AboutPanel.Margin = New Padding(3, 2, 3, 2)
+        AboutPanel.Name = "AboutPanel"
+        AboutPanel.Size = New Size(569, 340)
+        AboutPanel.TabIndex = 1
+        ' 
+        ' Label3
+        ' 
+        Label3.AutoSize = True
+        Label3.Font = New Font("Papyrus", 10.2F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
+        Label3.Location = New Point(417, 176)
+        Label3.Name = "Label3"
+        Label3.Size = New Size(138, 22)
+        Label3.TabIndex = 5
+        Label3.Text = "Chaitanya Murumkar"
+        ' 
+        ' Label2
+        ' 
+        Label2.AutoSize = True
+        Label2.Font = New Font("Papyrus", 10.2F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
+        Label2.Location = New Point(292, 176)
+        Label2.Name = "Label2"
+        Label2.Size = New Size(104, 22)
+        Label2.TabIndex = 4
+        Label2.Text = "Tejas Mahajan"
+        ' 
+        ' Label1
+        ' 
+        Label1.AutoSize = True
+        Label1.Font = New Font("Papyrus", 10.2F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
+        Label1.Location = New Point(166, 178)
+        Label1.Name = "Label1"
+        Label1.Size = New Size(108, 22)
+        Label1.TabIndex = 3
+        Label1.Text = "Om Wakchaure"
+        ' 
+        ' membername1
+        ' 
+        membername1.AutoSize = True
+        membername1.Font = New Font("Papyrus", 10.2F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
+        membername1.Location = New Point(46, 178)
+        membername1.Name = "membername1"
+        membername1.Size = New Size(99, 22)
+        membername1.TabIndex = 2
+        membername1.Text = "Prajwal Dhage"
+        ' 
+        ' abouttext2
+        ' 
+        abouttext2.AutoSize = True
+        abouttext2.Font = New Font("Papyrus", 12F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
+        abouttext2.Location = New Point(5, 64)
+        abouttext2.Name = "abouttext2"
+        abouttext2.Size = New Size(131, 25)
+        abouttext2.TabIndex = 1
+        abouttext2.Text = "Project Members:"
+        ' 
+        ' abouttext1
+        ' 
+        abouttext1.AutoSize = True
+        abouttext1.Font = New Font("Papyrus", 12F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        abouttext1.Location = New Point(200, 16)
+        abouttext1.Name = "abouttext1"
+        abouttext1.Size = New Size(130, 25)
+        abouttext1.TabIndex = 0
+        abouttext1.Text = "Project Details"
         ' 
         ' Home
         ' 
@@ -675,14 +808,16 @@ Partial Class Home
         AutoScaleMode = AutoScaleMode.Font
         BackColor = Color.Moccasin
         ClientSize = New Size(736, 382)
-        Controls.Add(StaffPanel)
-        Controls.Add(StudentPanel)
         Controls.Add(HomePanel)
+        Controls.Add(StudentPanel)
+        Controls.Add(StaffPanel)
+        Controls.Add(LibraryPanel)
+        Controls.Add(AboutPanel)
         Controls.Add(TopPanel)
         Controls.Add(LeftPanel)
-        FormBorderStyle = FormBorderStyle.None
+        FormBorderStyle = FormBorderStyle.SizableToolWindow
         MainMenuStrip = MenuStrip1
-        Margin = New Padding(2, 2, 2, 2)
+        Margin = New Padding(2)
         Name = "Home"
         Text = "Home"
         LeftPanel.ResumeLayout(False)
@@ -696,23 +831,25 @@ Partial Class Home
         MenuStrip1.PerformLayout()
         StaffPanel.ResumeLayout(False)
         StaffPanel.PerformLayout()
+        MenuStrip3.ResumeLayout(False)
+        MenuStrip3.PerformLayout()
         MenuStrip2.ResumeLayout(False)
         MenuStrip2.PerformLayout()
+        LibraryPanel.ResumeLayout(False)
+        LibraryPanel.PerformLayout()
+        AboutPanel.ResumeLayout(False)
+        AboutPanel.PerformLayout()
         ResumeLayout(False)
     End Sub
 
     Friend WithEvents LeftPanel As Panel
     Friend WithEvents TopPanel As Panel
     Friend WithEvents LibraryBtn As Button
-    Friend WithEvents StaffBtn As Button
+    Friend WithEvents FacultyBtn As Button
     Friend WithEvents StudentBtn As Button
-    Friend WithEvents Panel1 As Panel
+    Friend WithEvents PanelOn As Panel
     Friend WithEvents AboutBtn As Button
     Friend WithEvents HomeBtn As Button
-    Friend WithEvents Panel5 As Panel
-    Friend WithEvents Panel4 As Panel
-    Friend WithEvents Panel3 As Panel
-    Friend WithEvents Panel2 As Panel
     Friend WithEvents HomePanel As Panel
     Friend WithEvents Button4 As Button
     Friend WithEvents LibraryBtnHome As Button
@@ -758,21 +895,40 @@ Partial Class Home
     Friend WithEvents ToolStripMenuItem5 As ToolStripMenuItem
     Friend WithEvents ToolStripMenuItem6 As ToolStripMenuItem
     Friend WithEvents ToolStripMenuItem7 As ToolStripMenuItem
-    Friend WithEvents ToolStripMenuItem8 As ToolStripMenuItem
-    Friend WithEvents ToolStripMenuItem9 As ToolStripMenuItem
-    Friend WithEvents ToolStripMenuItem10 As ToolStripMenuItem
-    Friend WithEvents ToolStripMenuItem11 As ToolStripMenuItem
-    Friend WithEvents ToolStripMenuItem12 As ToolStripMenuItem
-    Friend WithEvents ToolStripMenuItem13 As ToolStripMenuItem
-    Friend WithEvents ToolStripMenuItem14 As ToolStripMenuItem
-    Friend WithEvents ToolStripMenuItem15 As ToolStripMenuItem
-    Friend WithEvents ToolStripMenuItem16 As ToolStripMenuItem
-    Friend WithEvents ToolStripMenuItem17 As ToolStripMenuItem
-    Friend WithEvents ToolStripMenuItem18 As ToolStripMenuItem
     Friend WithEvents ToolStripMenuItem19 As ToolStripMenuItem
     Friend WithEvents ToolStripMenuItem20 As ToolStripMenuItem
     Friend WithEvents ToolStripMenuItem21 As ToolStripMenuItem
     Friend WithEvents ToolStripMenuItem22 As ToolStripMenuItem
-    Friend WithEvents FacultyToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents LibraryPanel As Panel
+    Friend WithEvents MenuStrip3 As MenuStrip
+    Friend WithEvents ToolStripMenuItem23 As ToolStripMenuItem
+    Friend WithEvents ToolStripMenuItem24 As ToolStripMenuItem
+    Friend WithEvents ToolStripMenuItem25 As ToolStripMenuItem
+    Friend WithEvents ToolStripMenuItem26 As ToolStripMenuItem
+    Friend WithEvents ToolStripMenuItem27 As ToolStripMenuItem
+    Friend WithEvents ToolStripMenuItem28 As ToolStripMenuItem
+    Friend WithEvents ToolStripMenuItem29 As ToolStripMenuItem
+    Friend WithEvents ToolStripMenuItem30 As ToolStripMenuItem
+    Friend WithEvents ToolStripMenuItem31 As ToolStripMenuItem
+    Friend WithEvents ToolStripMenuItem32 As ToolStripMenuItem
+    Friend WithEvents ToolStripMenuItem33 As ToolStripMenuItem
+    Friend WithEvents ToolStripMenuItem34 As ToolStripMenuItem
+    Friend WithEvents ToolStripMenuItem35 As ToolStripMenuItem
+    Friend WithEvents ToolStripMenuItem36 As ToolStripMenuItem
+    Friend WithEvents ToolStripMenuItem37 As ToolStripMenuItem
+    Friend WithEvents ToolStripMenuItem38 As ToolStripMenuItem
+    Friend WithEvents ToolStripMenuItem39 As ToolStripMenuItem
+    Friend WithEvents ToolStripMenuItem40 As ToolStripMenuItem
+    Friend WithEvents ToolStripMenuItem41 As ToolStripMenuItem
+    Friend WithEvents ToolStripMenuItem42 As ToolStripMenuItem
+    Friend WithEvents ToolStripMenuItem43 As ToolStripMenuItem
+    Friend WithEvents ToolStripMenuItem44 As ToolStripMenuItem
+    Friend WithEvents AboutPanel As Panel
+    Friend WithEvents abouttext2 As Label
+    Friend WithEvents abouttext1 As Label
+    Friend WithEvents Label3 As Label
+    Friend WithEvents Label2 As Label
+    Friend WithEvents Label1 As Label
+    Friend WithEvents membername1 As Label
 
 End Class
