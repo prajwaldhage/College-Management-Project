@@ -808,8 +808,8 @@ Partial Class Home
         AutoScaleMode = AutoScaleMode.Font
         BackColor = Color.Moccasin
         ClientSize = New Size(736, 382)
-        Controls.Add(HomePanel)
         Controls.Add(StudentPanel)
+        Controls.Add(HomePanel)
         Controls.Add(StaffPanel)
         Controls.Add(LibraryPanel)
         Controls.Add(AboutPanel)
@@ -819,6 +819,7 @@ Partial Class Home
         MainMenuStrip = MenuStrip1
         Margin = New Padding(2)
         Name = "Home"
+        StartPosition = FormStartPosition.CenterScreen
         Text = "Home"
         LeftPanel.ResumeLayout(False)
         TopPanel.ResumeLayout(False)

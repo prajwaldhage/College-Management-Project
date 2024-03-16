@@ -129,7 +129,7 @@ Partial Class AddStudent
         ' Image
         ' 
         Image.AutoSize = True
-        Image.Location = New Point(523, 324)
+        Image.Location = New Point(523, 332)
         Image.Name = "Image"
         Image.Size = New Size(84, 15)
         Image.TabIndex = 9
@@ -243,6 +243,7 @@ Partial Class AddStudent
         Controls.Add(AdmissionNo)
         Controls.Add(StudName)
         Controls.Add(Ttile)
+        FormBorderStyle = FormBorderStyle.SizableToolWindow
         Name = "AddStudent"
         Text = "AddStudent"
         ResumeLayout(False)

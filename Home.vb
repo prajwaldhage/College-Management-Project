@@ -1,4 +1,6 @@
-﻿Public Class Home
+﻿Imports System.Windows
+
+Public Class Home
     Private Sub HomeBtn_Click(sender As Object, e As EventArgs) Handles HomeBtn.Click
         PanelOn.Height = HomeBtn.Height
         PanelOn.Top = HomeBtn.Top
@@ -56,5 +58,41 @@
 
     Private Sub Home_Load(sender As Object, e As EventArgs) Handles MyBase.Load
 
+    End Sub
+
+    Private Sub DataGridView1_CellContentClick(sender As Object, e As DataGridViewCellEventArgs)
+
+    End Sub
+
+    Private Sub AddStudentToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles AddStudentToolStripMenuItem.Click
+        AddStudent.Show()
+    End Sub
+
+    Private Sub DeleteStudentToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles DeleteStudentToolStripMenuItem.Click
+        Development.Show()
+    End Sub
+
+    Private Sub ViewDetailsToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles ViewDetailsToolStripMenuItem.Click
+        Development.Show()
+    End Sub
+
+    Private Sub AddClassToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles AddClassToolStripMenuItem.Click
+        Development.Show()
+    End Sub
+
+    Private Sub ViewClassToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles ViewClassToolStripMenuItem.Click
+        Development.Show()
+    End Sub
+
+    Private Sub AddFeesToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles AddFeesToolStripMenuItem.Click
+        Development.Show()
+    End Sub
+
+    Private Sub ViewFeesToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles ViewFeesToolStripMenuItem.Click
+        Development.Show()
+    End Sub
+
+    Private Sub CollectFeesToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles CollectFeesToolStripMenuItem.Click
+        Development.Show()
     End Sub
 End Class
