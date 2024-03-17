@@ -55,15 +55,6 @@ Public Class Home
     Private Sub StudentBtnHome_Click(sender As Object, e As EventArgs) Handles StudentBtnHome.Click
 
     End Sub
-
-    Private Sub Home_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-
-    End Sub
-
-    Private Sub DataGridView1_CellContentClick(sender As Object, e As DataGridViewCellEventArgs)
-
-    End Sub
-
     Private Sub AddStudentToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles AddStudentToolStripMenuItem.Click
         AddStudent.Show()
     End Sub
