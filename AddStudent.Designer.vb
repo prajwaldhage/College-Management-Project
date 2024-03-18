@@ -35,10 +35,10 @@ Partial Class AddStudent
         Title2 = New Label()
         StudNameIn = New TextBox()
         AdmissionNoIn = New TextBox()
-        TextBox1 = New TextBox()
-        TextBox2 = New TextBox()
-        TextBox3 = New TextBox()
-        DateTimePicker1 = New DateTimePicker()
+        ContactIn = New TextBox()
+        EmailIn = New TextBox()
+        FNameIn = New TextBox()
+        DOBIn = New DateTimePicker()
         BranchIn = New ComboBox()
         YearIn = New ComboBox()
         Submit = New Button()
@@ -160,33 +160,33 @@ Partial Class AddStudent
         AdmissionNoIn.Size = New Size(166, 23)
         AdmissionNoIn.TabIndex = 12
         ' 
-        ' TextBox1
+        ' ContactIn
         ' 
-        TextBox1.Location = New Point(189, 246)
-        TextBox1.Name = "TextBox1"
-        TextBox1.Size = New Size(166, 23)
-        TextBox1.TabIndex = 13
+        ContactIn.Location = New Point(189, 246)
+        ContactIn.Name = "ContactIn"
+        ContactIn.Size = New Size(166, 23)
+        ContactIn.TabIndex = 13
         ' 
-        ' TextBox2
+        ' EmailIn
         ' 
-        TextBox2.Location = New Point(189, 284)
-        TextBox2.Name = "TextBox2"
-        TextBox2.Size = New Size(166, 23)
-        TextBox2.TabIndex = 14
+        EmailIn.Location = New Point(189, 284)
+        EmailIn.Name = "EmailIn"
+        EmailIn.Size = New Size(166, 23)
+        EmailIn.TabIndex = 14
         ' 
-        ' TextBox3
+        ' FNameIn
         ' 
-        TextBox3.Location = New Point(189, 324)
-        TextBox3.Name = "TextBox3"
-        TextBox3.Size = New Size(166, 23)
-        TextBox3.TabIndex = 15
+        FNameIn.Location = New Point(189, 324)
+        FNameIn.Name = "FNameIn"
+        FNameIn.Size = New Size(166, 23)
+        FNameIn.TabIndex = 15
         ' 
-        ' DateTimePicker1
+        ' DOBIn
         ' 
-        DateTimePicker1.Location = New Point(189, 214)
-        DateTimePicker1.Name = "DateTimePicker1"
-        DateTimePicker1.Size = New Size(166, 23)
-        DateTimePicker1.TabIndex = 16
+        DOBIn.Location = New Point(189, 214)
+        DOBIn.Name = "DOBIn"
+        DOBIn.Size = New Size(166, 23)
+        DOBIn.TabIndex = 16
         ' 
         ' BranchIn
         ' 
@@ -226,10 +226,10 @@ Partial Class AddStudent
         Controls.Add(Submit)
         Controls.Add(YearIn)
         Controls.Add(BranchIn)
-        Controls.Add(DateTimePicker1)
-        Controls.Add(TextBox3)
-        Controls.Add(TextBox2)
-        Controls.Add(TextBox1)
+        Controls.Add(DOBIn)
+        Controls.Add(FNameIn)
+        Controls.Add(EmailIn)
+        Controls.Add(ContactIn)
         Controls.Add(AdmissionNoIn)
         Controls.Add(StudNameIn)
         Controls.Add(Title2)
@@ -263,10 +263,10 @@ Partial Class AddStudent
     Friend WithEvents Title2 As Label
     Friend WithEvents StudNameIn As TextBox
     Friend WithEvents AdmissionNoIn As TextBox
-    Friend WithEvents TextBox1 As TextBox
-    Friend WithEvents TextBox2 As TextBox
-    Friend WithEvents TextBox3 As TextBox
-    Friend WithEvents DateTimePicker1 As DateTimePicker
+    Friend WithEvents ContactIn As TextBox
+    Friend WithEvents EmailIn As TextBox
+    Friend WithEvents FNameIn As TextBox
+    Friend WithEvents DOBIn As DateTimePicker
     Friend WithEvents BranchIn As ComboBox
     Friend WithEvents YearIn As ComboBox
     Friend WithEvents Submit As Button

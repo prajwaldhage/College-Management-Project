@@ -123,7 +123,7 @@ Partial Class Home
         ' 
         ' LeftPanel
         ' 
-        LeftPanel.BackColor = Color.Orange
+        LeftPanel.BackColor = Color.FromArgb(CByte(255), CByte(46), CByte(99))
         LeftPanel.BackgroundImageLayout = ImageLayout.None
         LeftPanel.Controls.Add(PanelOn)
         LeftPanel.Controls.Add(AboutBtn)
@@ -133,16 +133,16 @@ Partial Class Home
         LeftPanel.Controls.Add(StudentBtn)
         LeftPanel.Dock = DockStyle.Left
         LeftPanel.Location = New Point(0, 0)
-        LeftPanel.Margin = New Padding(2)
+        LeftPanel.Margin = New Padding(2, 2, 2, 2)
         LeftPanel.Name = "LeftPanel"
         LeftPanel.Size = New Size(168, 382)
         LeftPanel.TabIndex = 0
         ' 
         ' PanelOn
         ' 
-        PanelOn.BackColor = Color.Moccasin
+        PanelOn.BackColor = Color.FromArgb(CByte(8), CByte(217), CByte(214))
         PanelOn.Location = New Point(1, 67)
-        PanelOn.Margin = New Padding(2)
+        PanelOn.Margin = New Padding(2, 2, 2, 2)
         PanelOn.Name = "PanelOn"
         PanelOn.Size = New Size(10, 29)
         PanelOn.TabIndex = 6
@@ -153,7 +153,7 @@ Partial Class Home
         AboutBtn.FlatStyle = FlatStyle.Flat
         AboutBtn.Font = New Font("Papyrus", 12F)
         AboutBtn.Location = New Point(0, 247)
-        AboutBtn.Margin = New Padding(2)
+        AboutBtn.Margin = New Padding(2, 2, 2, 2)
         AboutBtn.Name = "AboutBtn"
         AboutBtn.Size = New Size(168, 29)
         AboutBtn.TabIndex = 5
@@ -166,7 +166,7 @@ Partial Class Home
         HomeBtn.FlatStyle = FlatStyle.Flat
         HomeBtn.Font = New Font("Papyrus", 12F)
         HomeBtn.Location = New Point(0, 67)
-        HomeBtn.Margin = New Padding(2)
+        HomeBtn.Margin = New Padding(2, 2, 2, 2)
         HomeBtn.Name = "HomeBtn"
         HomeBtn.Size = New Size(168, 29)
         HomeBtn.TabIndex = 4
@@ -179,7 +179,7 @@ Partial Class Home
         LibraryBtn.FlatStyle = FlatStyle.Flat
         LibraryBtn.Font = New Font("Papyrus", 12F)
         LibraryBtn.Location = New Point(0, 200)
-        LibraryBtn.Margin = New Padding(2)
+        LibraryBtn.Margin = New Padding(2, 2, 2, 2)
         LibraryBtn.Name = "LibraryBtn"
         LibraryBtn.Size = New Size(168, 29)
         LibraryBtn.TabIndex = 3
@@ -192,7 +192,7 @@ Partial Class Home
         FacultyBtn.FlatStyle = FlatStyle.Flat
         FacultyBtn.Font = New Font("Papyrus", 12F)
         FacultyBtn.Location = New Point(0, 157)
-        FacultyBtn.Margin = New Padding(2)
+        FacultyBtn.Margin = New Padding(2, 2, 2, 2)
         FacultyBtn.Name = "FacultyBtn"
         FacultyBtn.Size = New Size(168, 29)
         FacultyBtn.TabIndex = 2
@@ -205,7 +205,7 @@ Partial Class Home
         StudentBtn.FlatStyle = FlatStyle.Flat
         StudentBtn.Font = New Font("Papyrus", 12F)
         StudentBtn.Location = New Point(0, 112)
-        StudentBtn.Margin = New Padding(2)
+        StudentBtn.Margin = New Padding(2, 2, 2, 2)
         StudentBtn.Name = "StudentBtn"
         StudentBtn.Size = New Size(168, 29)
         StudentBtn.TabIndex = 1
@@ -214,11 +214,11 @@ Partial Class Home
         ' 
         ' TopPanel
         ' 
-        TopPanel.BackColor = Color.Orange
+        TopPanel.BackColor = Color.FromArgb(CByte(8), CByte(217), CByte(214))
         TopPanel.Controls.Add(Title)
         TopPanel.Dock = DockStyle.Top
         TopPanel.Location = New Point(168, 0)
-        TopPanel.Margin = New Padding(2)
+        TopPanel.Margin = New Padding(2, 2, 2, 2)
         TopPanel.Name = "TopPanel"
         TopPanel.Size = New Size(568, 35)
         TopPanel.TabIndex = 1
@@ -227,14 +227,15 @@ Partial Class Home
         ' 
         Title.AutoSize = True
         Title.Font = New Font("Comic Sans MS", 12F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
-        Title.Location = New Point(140, 7)
+        Title.Location = New Point(122, 7)
         Title.Name = "Title"
-        Title.Size = New Size(224, 23)
+        Title.Size = New Size(307, 23)
         Title.TabIndex = 0
-        Title.Text = "Vadapav College, Dholakpur"
+        Title.Text = "Dhirubhai Ambani International School"
         ' 
         ' HomePanel
         ' 
+        HomePanel.BackColor = Color.Snow
         HomePanel.Controls.Add(AboutLabel)
         HomePanel.Controls.Add(LibraryLabel)
         HomePanel.Controls.Add(FacultyLabel)
@@ -243,10 +244,10 @@ Partial Class Home
         HomePanel.Controls.Add(FacultyBtnHome)
         HomePanel.Controls.Add(AboutBtnHome)
         HomePanel.Controls.Add(StudentBtnHome)
-        HomePanel.Location = New Point(168, 34)
-        HomePanel.Margin = New Padding(2)
+        HomePanel.Location = New Point(168, 31)
+        HomePanel.Margin = New Padding(2, 2, 2, 2)
         HomePanel.Name = "HomePanel"
-        HomePanel.Size = New Size(568, 348)
+        HomePanel.Size = New Size(571, 351)
         HomePanel.TabIndex = 2
         ' 
         ' AboutLabel
@@ -290,7 +291,7 @@ Partial Class Home
         LibraryBtnHome.BackgroundImage = CType(resources.GetObject("LibraryBtnHome.BackgroundImage"), Image)
         LibraryBtnHome.BackgroundImageLayout = ImageLayout.Stretch
         LibraryBtnHome.Location = New Point(91, 187)
-        LibraryBtnHome.Margin = New Padding(2)
+        LibraryBtnHome.Margin = New Padding(2, 2, 2, 2)
         LibraryBtnHome.Name = "LibraryBtnHome"
         LibraryBtnHome.Size = New Size(124, 103)
         LibraryBtnHome.TabIndex = 2
@@ -301,7 +302,7 @@ Partial Class Home
         FacultyBtnHome.BackgroundImage = CType(resources.GetObject("FacultyBtnHome.BackgroundImage"), Image)
         FacultyBtnHome.BackgroundImageLayout = ImageLayout.Stretch
         FacultyBtnHome.Location = New Point(339, 41)
-        FacultyBtnHome.Margin = New Padding(2)
+        FacultyBtnHome.Margin = New Padding(2, 2, 2, 2)
         FacultyBtnHome.Name = "FacultyBtnHome"
         FacultyBtnHome.Size = New Size(124, 103)
         FacultyBtnHome.TabIndex = 1
@@ -312,7 +313,7 @@ Partial Class Home
         AboutBtnHome.BackgroundImage = CType(resources.GetObject("AboutBtnHome.BackgroundImage"), Image)
         AboutBtnHome.BackgroundImageLayout = ImageLayout.Stretch
         AboutBtnHome.Location = New Point(339, 187)
-        AboutBtnHome.Margin = New Padding(2)
+        AboutBtnHome.Margin = New Padding(2, 2, 2, 2)
         AboutBtnHome.Name = "AboutBtnHome"
         AboutBtnHome.Size = New Size(124, 103)
         AboutBtnHome.TabIndex = 3
@@ -323,7 +324,7 @@ Partial Class Home
         StudentBtnHome.BackgroundImage = CType(resources.GetObject("StudentBtnHome.BackgroundImage"), Image)
         StudentBtnHome.BackgroundImageLayout = ImageLayout.Stretch
         StudentBtnHome.Location = New Point(91, 41)
-        StudentBtnHome.Margin = New Padding(2)
+        StudentBtnHome.Margin = New Padding(2, 2, 2, 2)
         StudentBtnHome.Name = "StudentBtnHome"
         StudentBtnHome.Size = New Size(124, 103)
         StudentBtnHome.TabIndex = 0
@@ -331,6 +332,7 @@ Partial Class Home
         ' 
         ' StudentPanel
         ' 
+        StudentPanel.BackColor = Color.Snow
         StudentPanel.Controls.Add(MenuStrip1)
         StudentPanel.Location = New Point(169, 34)
         StudentPanel.Name = "StudentPanel"
@@ -339,6 +341,7 @@ Partial Class Home
         ' 
         ' MenuStrip1
         ' 
+        MenuStrip1.BackColor = Color.White
         MenuStrip1.ImageScalingSize = New Size(20, 20)
         MenuStrip1.Items.AddRange(New ToolStripItem() {FileToolStripMenuItem, StudentToolStripMenuItem, ClassToolStripMenuItem, FeesToolStripMenuItem, ExamToolStripMenuItem, HelpToolStripMenuItem})
         MenuStrip1.Location = New Point(0, 0)
@@ -487,6 +490,7 @@ Partial Class Home
         ' 
         ' StaffPanel
         ' 
+        StaffPanel.BackColor = Color.Snow
         StaffPanel.Controls.Add(MenuStrip3)
         StaffPanel.Location = New Point(171, 34)
         StaffPanel.Name = "StaffPanel"
@@ -722,6 +726,7 @@ Partial Class Home
         ' 
         ' LibraryPanel
         ' 
+        LibraryPanel.BackColor = Color.Snow
         LibraryPanel.Controls.Add(MenuStrip2)
         LibraryPanel.Location = New Point(168, 34)
         LibraryPanel.Name = "LibraryPanel"
@@ -730,6 +735,7 @@ Partial Class Home
         ' 
         ' AboutPanel
         ' 
+        AboutPanel.BackColor = Color.Snow
         AboutPanel.Controls.Add(Label3)
         AboutPanel.Controls.Add(Label2)
         AboutPanel.Controls.Add(Label1)
@@ -808,8 +814,8 @@ Partial Class Home
         AutoScaleMode = AutoScaleMode.Font
         BackColor = Color.Moccasin
         ClientSize = New Size(736, 382)
-        Controls.Add(StudentPanel)
         Controls.Add(HomePanel)
+        Controls.Add(StudentPanel)
         Controls.Add(StaffPanel)
         Controls.Add(LibraryPanel)
         Controls.Add(AboutPanel)
@@ -817,7 +823,7 @@ Partial Class Home
         Controls.Add(LeftPanel)
         FormBorderStyle = FormBorderStyle.SizableToolWindow
         MainMenuStrip = MenuStrip1
-        Margin = New Padding(2)
+        Margin = New Padding(2, 2, 2, 2)
         Name = "Home"
         StartPosition = FormStartPosition.CenterScreen
         Text = "Home"
